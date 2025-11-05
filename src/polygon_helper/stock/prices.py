@@ -3,7 +3,7 @@ from datetime import datetime
 import pandas as pd
 from dateutil import parser as dateparser
 
-from .client import PolygonClient
+from ..client import PolygonClient
 
 Timespan = Literal["minute", "hour", "day", "week", "month", "quarter", "year"]
 
