@@ -49,5 +49,3 @@ def get_price_series(
     data = client.get(path, params=params)
     results = data.get("results", [])
     return _normalize_results(results)
-
-#API KEY = Gc_5gx7SynFpJGDezYkWBPRJ56rTFyX0
